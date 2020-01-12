@@ -1,0 +1,258 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	font-family: 'Roboto', sans-serif;
+}
+header {
+	width: 100%;
+	float: left;
+}
+.container {
+	width: 1140px;
+	margin: 0 auto;
+}
+.logo {
+	width: 20%;
+	float: left;
+}
+.menu {
+	width: 50%;
+	float: left;
+}
+nav ul {
+	list-style: none;
+}
+
+nav ul li {
+	display: inline-block;
+    margin: 30px 5px;
+    padding: 10px 5px;
+    text-transform: uppercase;
+}
+
+nav ul li a {
+	text-decoration: none;
+    color: #1552EF;
+    font-size: 20px;
+    padding: 20px 0px;
+}
+.social-icon {
+	width: 30%;
+	float: left;
+}
+.social-icon ul {
+	list-style: none;
+
+}
+.social-icon ul li {
+	display: inline-block;
+    margin: 35px 10px;
+}
+
+
+.fa.fa-facebook {
+	background: #6BC536;
+    padding: 5px 10px;
+    color: #fff;
+    transition: 0.4s ease-in-out;
+	
+}
+.fa.fa-facebook:hover {
+	background-color: #4267B2;
+    color: #fff;
+    transform: scale(1.5);
+}
+.fa.fa-twitter {
+	background: #6BC536;
+    padding: 5px 10px;
+    color: #fff;
+    transition: 0.4s ease-in-out;
+}
+.fa.fa-twitter:hover {
+	background-color: #01A0F4;
+    color: #fff;
+    transform: scale(1.5);
+}
+.fa.fa-linkedin {
+	background: #6BC536;
+    padding: 5px 10px;
+    color: #fff;
+    transition: 0.4s ease-in-out;
+}
+.fa.fa-linkedin:hover {
+	background-color: #2866AC;
+    color: #fff;
+    transform: rotate(360deg);
+}
+.fa.fa-google-plus {
+	background: #6BC536;
+    padding: 5px 10px;
+    color: #fff;
+    transition: 0.4s ease-in-out;
+}
+.fa.fa-google-plus:hover {
+	background-color: #FE0303;
+    color: #fff;
+    transform: scale(1.5);
+}
+.fa.fa-sign-in {
+	background: #6BC536;
+    padding: 5px 10px;
+    color: #FE0303;
+    transition: 0.4s ease-in-out;
+}
+.fa.fa-sign-in:hover {
+	background-color: #FF9800;
+    color: #fff;
+    
+}
+
+.sec-one {
+	width: 100%;
+	float: left;
+}
+.banner {
+	background-image: url(../img/banner1.jpg);
+	display: block;
+	background-size: cover;
+    width: 1140px;
+    height: 375px;
+    margin: 10px auto;
+}
+.ad-banner {
+	background: #98969685;
+    width: 400px;
+    margin: 50px 50px;
+    display: inline-block;
+    height: 280px;
+}
+.sec-one h1 {
+	display: block;
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 20px;
+}
+.sec-one p {
+	text-align: center;
+    font-size: 15px;
+    margin-top: 35px;
+}
+.button {
+	text-align: center;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+button {
+	display: inline-block;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #66C430;
+    border-radius: 6px;
+    padding: 6px 4px;
+    margin: 8px;
+}
+.sec-two {
+	width: 100%;
+	float: left;
+}
+.service-one {
+    float: left;
+    width: 25%;
+    height: 300px;
+    display: inline-block;
+}
+.service-two {
+    float: left;
+    width: 25%;
+    height: 300px;
+    display: inline-block;
+}
+.service-three {
+    float: left;
+    width: 25%;
+    height: 300px;
+    display: inline-block;
+}
+.service-four {
+    float: left;
+    width: 25%;
+    height: 300px;
+    display: inline-block;
+}
+.fa.fa-check {
+	text-align: center;
+    color: #6B5ACF;
+    background: #fff;
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-left: 110px;
+    padding: 20px;
+    font-size: 50px;
+}
+.fa.fa-map-marker {
+	text-align: center;
+    background: #fff;
+    border-radius: 50%;
+    color: #02989A;
+    margin-top: 30px;
+    margin-left: 110px;
+    padding: 20px;
+    font-size: 50px;
+}
+.fa.fa-money {
+	background: #fff;
+    text-align: center;
+    border-radius: 50%;
+    color: #4CB77F;
+    margin-top: 30px;
+    margin-left: 110px;
+    padding: 20px;
+    font-size: 50px;
+}
+.fa.fa-user-plus {
+    text-align: center;
+    background: #fff;
+    border-radius: 50%;
+    color: #A1D869;
+    margin-top: 30px;
+    margin-left: 110px;
+    padding: 20px;
+    font-size: 50px;
+}
+.sec-two h2 {
+    display: block;
+    text-align: center;
+    margin: 20px 0px 10px 0px;
+}
+.sec-two p {
+    padding: 10px;
+    text-align: center;
+    font-size: 15px;
+    margin-left: 10px;
+}
+.button-two {
+	text-align: center;
+}
+.sec-three {
+	width: 100%;
+	float: left;
+}
+.investment-one {
+	width: 35%;
+    float: left;
+    height: 300px;
+    display: inline-block;
+}
+.investment-two {
+	width: 35%;
+    float: left;
+    height: 300px;
+    display: inline-block;
+}
+
+
+
